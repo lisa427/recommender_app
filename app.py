@@ -6,6 +6,7 @@ from sqlalchemy import create_engine, func, desc
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
+from os import environ
 
 
 app = Flask(__name__)
@@ -86,4 +87,4 @@ def index():
         
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=environ.get('PORT', 5000), debug=True)
