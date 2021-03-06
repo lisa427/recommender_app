@@ -1,0 +1,24 @@
+{
+  "name": "recommender_app",
+  "version": "1.0.0",
+  "description": "![book stacks](https://raw.githubusercontent.com/AllCAPs788/butler-project3-groupE/master/assets/images/book_stacks_1.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisa427/recommender_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lisa427/recommender_app/issues"
+  },
+  "homepage": "https://github.com/lisa427/recommender_app#readme",
+  "devDependencies": {
+    "serverless-python-requirements": "^5.1.0",
+    "serverless-wsgi": "^1.7.6"
+  }
+}
